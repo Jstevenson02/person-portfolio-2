@@ -27,7 +27,7 @@ const Navbar = () => {
             <span className="sm:block hidden">| Open For Work ✅</span>
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10 ml-auto">
+        <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
