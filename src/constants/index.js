@@ -15,14 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  computer,
+  cap,
+  wrench,
+  stuller,
+  walter,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +44,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Django Developer",
     icon: mobile,
   },
   {
@@ -116,55 +114,81 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Self Teaching",
+    company_name: "Home",
+    icon: computer,
+    iconBg: "#FFFFFF",
+    date: "August 2010 - Present",
     points: [
+      "Programming my first games using Scratch drag and drop low-code editor.",
+      "Maintaining and tracking all of my class projects while in college using Git.",
+      "Collaborating with my friends using Gitlab to maintain structure on our projects.",
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    ],
+  },
+  {
+    title: "IT Lead Technician",
+    company_name: "Southside Highschool",
+    icon: cap,
+    iconBg: "#FFFFFF",
+    date: "August  2016 - May 2020",
+    points: [
+      "Work consisted of repairing staff and student computers and tablets.",
+      "Configuring networking settings and remedy wifi connectivity issues.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Managing the registration and distribution of technology around campus.",
+    ],
+  },
+  {
+    title: "IT Technician",
+    company_name: "Dog House Computers",
+    icon: wrench,
+    iconBg: "#FFFFFF",
+    date: "August  2016 - May 2020",
+    points: [
+      "Worked on end-user computers and servers.",
+      "Fixed hardware, software and firmware issues.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Throughout, I gained experience on Mac OS, Windows and Linux systems.",
+    ],
+  },
+  {
+    title: "University of Louisiana at Lafayette",
+    company_name: "Student",
+    icon: cap,
+    iconBg: "#FFFFFF",
+    date: "August 2020 - May 2021",
+    points: [
+      "Studied Computer Science in pursuit of a Bachelors degree",
+      "Classes consisted of learning low level circuitry using logisim.",
+      "Developing math skills in Trigonometry and statistics.",
+      "Programming classes were limited to the study of Python and C++",
+    ],
+  },
+  {
+    title: "SysOps Technician",
+    company_name: "Stuller",
+    icon: stuller,
+    iconBg: "#FFFFFF",
+    date: "July 2021 - December 2021",
+    points: [
+      "Answered internal phone calls, troubleshoot user issues using remote software.",
+      "Repaired, deployed and designed hardware and software solutions for internal users and departments.",
+      "Optimized legacy procedures through usage of batch scripts for installing software.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "South Louisiana Community College",
+    company_name: "Student",
+    icon: cap,
+    iconBg: "#FFFFFF",
+    date: "August 2021 - December 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Studied old technology in pursuit of an Associates of Applied Sciences",
+      "Classes consisted of Java programming using JavaEE and Java Server Faces",
+      "Learning networking fundamentals through Cisco Netacad coursework",
+      "Programming classes were limited to the study of Java, HTML and C++",
     ],
   },
 ];
@@ -198,68 +222,68 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Walter AI",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Walter is a full-stack Django webapp developed my friend and I. Powered by OpenAI's opensource Davinci model and our backend API wrapper. This, coupled with a our custom user model allows seamless login and user registration. Users are able to generate output using instruction and completion prompts. Users completions are able to viewd from the dashboard.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "django",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
+        name: "bootstrap-css",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "SQLite3",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: walter,
+    source_code_link: "https://github.com/Jstevenson02/ai-writer",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Job IT",
+  //   description:
+  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jobit,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
