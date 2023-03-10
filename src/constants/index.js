@@ -144,7 +144,7 @@ const experiences = [
     company_name: "Dog House Computers",
     icon: wrench,
     iconBg: "#FFFFFF",
-    date: "August  2016 - May 2020",
+    date: "August  2019 - May 2020",
     points: [
       "Worked on end-user computers and servers.",
       "Fixed hardware, software and firmware issues.",
